@@ -1,7 +1,7 @@
 body {
 	font-family: arial;
-	width: 1300px
-	margin: 0 auto;
+	width: 1300px;
+	/*margin: 0 auto;*/
 }
 
 nav {
@@ -10,7 +10,15 @@ nav {
 	background-color: papayawhip;
 	text-align: center;
 	font-size: 20px;
-	/*display: inline-block;*/
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 ul.nav >li {
@@ -22,7 +30,7 @@ ul.nav {
 	list-style: none;
 }
 
-#Home {
+#home {
 	background-image: linear-gradient(papayawhip, rgba(255, 255, 255, 0.01));
 	width: 1300px;
 	height: 110vh;
@@ -36,6 +44,11 @@ article.section1 >p {
 	display: block;
 }
 
+#welcome {
+	float: left;
+	padding-top: 200px;
+}
+
 #About {
 	background: url("limes.jpg");
 	width: 1300px;
@@ -47,6 +60,7 @@ h2 {
 	font-size: 30px;
 	margin-left: 30px;
 	margin-top: 30px;
+	clear: both;
 }
 
 #Abouts {
@@ -55,27 +69,35 @@ h2 {
 	line-height: 22px;
 }
 
-.linked {
-	clear: both;
-	float: right;
-	margin-right: 50px;
-	margin-top: 30px;
+.IN-widget {
+	float: left;
+	padding-left: 500px;
+	padding-bottom: 
+}
+
+#me {
+	float: left;
+	padding-left: 30px;
 }
 
 #Contact {
+	clear: both;
 	background-color: papayawhip;
 	width: 1300px;
 	height: 110vh;
 }
 
 #contact_form {
-	float: left;
-	margin: 0 auto;
+	clear: both;
+	display: block;
+	float: right;
+	margin-right: 100px;
 	width: 400px;
-	padding: 1px;
+	padding-right: 90px;
 	border: 1px solid lightgrey;
 }
 
 footer {
 	clear: both;
+	margin-top: 50px;
 }
